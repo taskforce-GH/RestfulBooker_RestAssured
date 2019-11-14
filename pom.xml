@@ -70,15 +70,6 @@
             <version>2.8.6</version>
         </dependency>
 
-
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson.databind.version}</version>
-            <scope>test</scope>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/net.minidev/json-smart -->
         <dependency>
             <groupId>net.minidev</groupId>

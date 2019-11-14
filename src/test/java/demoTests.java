@@ -133,6 +133,5 @@ public class demoTests {
         Response booking = bookerClient.createBooking(postBookingBody, postBookingHeaders);
         System.out.println(booking.body().asString());
         booking.then().assertThat().statusCode(is(200));
-
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31e98c6-033d-4e5e-9388-10b6e6d5087a" name="Default Changelist" comment="" />
+    <list default="true" id="f31e98c6-033d-4e5e-9388-10b6e6d5087a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TLo9gjgdFxYpYJhgEQvIq5giGG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,7 +54,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.demoTests.postAuth_nullPassword">
+  <component name="RunManager" selected="JUnit.demoTests">
+    <configuration name="demoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestfulBooker_RestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demoTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="demoTests.createBooking_badCheckinDates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestfulBooker_RestAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,23 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demoTests.putBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestfulBooker_RestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="demoTests" />
-      <option name="METHOD_NAME" value="putBooking" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.demoTests" />
         <item itemvalue="JUnit.demoTests.postAuth_nullPassword" />
         <item itemvalue="JUnit.demoTests.deleteBooking" />
         <item itemvalue="JUnit.demoTests.createBooking_badCheckinDates_invalidDate" />
         <item itemvalue="JUnit.demoTests.createBooking_badCheckinDates" />
-        <item itemvalue="JUnit.demoTests.putBooking" />
       </list>
     </recent_temporary>
   </component>
@@ -120,5 +126,16 @@
       <updated>1573248586903</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
